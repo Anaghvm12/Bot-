@@ -31,3 +31,8 @@ async def ping(_, message):
 @Client.on_message(filters.command("repo", COMMAND_HAND_LER) & f_onw_fliter)
 async def repo(_, message):
     await message.reply_text(REPO)
+
+
+@Client.on_message(filters.command("owner", COMMAND_HAND_LER) & f_onw_fliter)
+async def check_alive(_, message):
+    await message.reply_text(OWNER)
