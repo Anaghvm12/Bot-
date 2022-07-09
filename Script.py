@@ -19,6 +19,8 @@ class script(object):
     ALIVE_TXT ="""<b>ALIVE MODULE</b>
 • /alive - check me alive or dead🤧
 Just for a rasam😂"""
+    OWNER_TXT ="""<b>മുതലാളി 🔥</b>
+• /owner - To See My Owner"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
