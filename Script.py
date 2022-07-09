@@ -64,6 +64,15 @@ Pm Support
 Group Support
 Note:
 Everyone can use this command , if spaming happens bot will automatically ban you from the group"""
+    FUN_TXT ="""<b>FUN MODULE</b> 
+    
+<b>🎲 NOTHING MUCH JUST SOME FUN THINGS</b>
+t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍: 
+𝟣. /dice - Roll The Dice 
+𝟤. /Throw 𝗈𝗋 /Dart - 𝖳𝗈 𝖬𝖺𝗄𝖾 Drat 
+3. /Runs - Jokes 
+4. /Goal or /Shoot - To Make A Goal Or Shoot
+5. /luck or /cownd - Spin the Lucky"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Eva Maria Supports both url and alert inline buttons.
