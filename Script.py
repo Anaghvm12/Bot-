@@ -30,6 +30,8 @@ class script(object):
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+    CORONA_TXT ="""<b>Here is the help for the coron information module</b>
+  /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Eva Maria Supports both url and alert inline buttons.
