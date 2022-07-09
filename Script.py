@@ -41,7 +41,15 @@ Paste some texts or documents on a website!
 <b>NOTE:</b>
 • IMDb should have admin privillage.
 • These commands works on both pm and group.
-• These commands can be used by any group member."""
+• These commands can be used by any group member."""    
+    PURGE_TXT = """Help: <b>Purge</b>
+Need to delete lots of messages? That's what purges are for!
+<b>Commands and Usage:</b>
+• /purge - delete all messages from the replied to message, to the current message.
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on group.
+• These commands can be used by Only admin."""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Eva Maria Supports both url and alert inline buttons.
