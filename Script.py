@@ -75,6 +75,9 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 <b>📚 Commands & Usage:</b>
 ◉ /Pin :- Pin The Message You Replied To Message To Send A Notification To Group Members
 ◉ /Unpin :- Unpin The Current Pinned Message. If Used As A Reply, Unpins The Replied To Message"""
+    WHOIS_TXT ="""<b>WHOIS MODULE</b>
+Note:- Give a user details
+•/whois :-give a user full details"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Eva Maria Supports both url and alert inline buttons.
