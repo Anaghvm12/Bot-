@@ -54,7 +54,16 @@ Need to delete lots of messages? That's what purges are for!
 <b>NOTE:</b>
 • IMDb should have admin privillage.
 • These commands works on group.
-• These commands can be used by Only admin."""
+• These commands can be used by Only admin."""   
+    JSON_TXT ="""<b>JSON MODULE</b>
+JSON:
+Bot returns json for all replied messages with /json
+Features:
+Message Editting JSON
+Pm Support
+Group Support
+Note:
+Everyone can use this command , if spaming happens bot will automatically ban you from the group"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Eva Maria Supports both url and alert inline buttons.
