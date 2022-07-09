@@ -34,5 +34,5 @@ async def repo(_, message):
 
 
 @Client.on_message(filters.command("owner", COMMAND_HAND_LER) & f_onw_fliter)
-async def check_alive(_, message):
+async def owner(_, message):
     await message.reply_text(OWNER)
