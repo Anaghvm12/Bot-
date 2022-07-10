@@ -691,7 +691,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "ajax":
         buttons = [[
 
-            InlineKeyboardButton('sᴜʀᴘʀɪsᴇ', callback_data='start')
+            InlineKeyboardButton('ᴄʟɪᴄᴋ ʜᴇʀᴇ ꜰᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴꜱ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(        
@@ -762,7 +762,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('‹‹ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('ɴᴇxᴛ ››', callback_data='eth')
+            InlineKeyboardButton('ɴᴇxᴛ ››', callback_data='A')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)  
         await query.answer("ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇ ᴏɴᴇ") 
@@ -771,7 +771,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "eth":
+    elif query.data == "A":
         buttons = [[ 
             InlineKeyboardButton('ɢ ᴛʀᴀɴs', callback_data='gtrans'),
             InlineKeyboardButton('ᴜʀʟ sʜᴏʀᴛ', callback_data='urlshort'),
@@ -787,7 +787,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('‹‹ ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='statsx'),
-            InlineKeyboardButton('ɴᴇxᴛ ››', callback_data='prop')
+            InlineKeyboardButton('ɴᴇxᴛ ››', callback_data='B')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)  
         await query.answer("ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇ ᴛᴡᴏ")     
@@ -796,7 +796,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )  
-    elif query.data == "prop":
+    elif query.data == "B":
         buttons = [[ 
             InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='son'),
             InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='pastes'),
@@ -810,7 +810,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴅᴇᴘʟᴏʏ', callback_data='deploy'),
             InlineKeyboardButton('ᴘɪɴ', callback_data='pin')           
             ],[
-            InlineKeyboardButton('‹‹ ʙᴀᴄᴋ', callback_data='eth'),
+            InlineKeyboardButton('‹‹ ʙᴀᴄᴋ', callback_data='A'),
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='statsy'),
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start')
         ]]
