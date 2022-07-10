@@ -729,7 +729,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(text="ʙʟᴜʀ", callback_data="blur"),
             InlineKeyboardButton(text="ʙᴏʀᴅᴇʀ", callback_data="border"),
             ],[
-            InlineKeyboardButton(text="sᴛɪᴄᴋᴇʀ", callback_data="stickerid"),
+            InlineKeyboardButton(text="sᴛɪᴄᴋᴇʀ", callback_data="sticker"),
             InlineKeyboardButton(text="ʀᴏᴛᴀᴛᴇ", callback_data="rotate"),
             InlineKeyboardButton(text="ᴄᴏɴᴛʀᴀsᴛ", callback_data="contrast"),
             ],[
@@ -756,7 +756,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct')
             ],[
             InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tele'),
-            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='sticker'),
+            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='stickerid'),
             InlineKeyboardButton('ʏᴛ ᴛʜᴜᴍʙ', callback_data='ytthumb')
             ],[
             InlineKeyboardButton('ғɪʟᴇ sᴛᴏʀᴇ', callback_data='newdata'),
