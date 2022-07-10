@@ -709,7 +709,36 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        await query.answer('Piracy Is Crime')
+    elif query.data == "photo":
+        buttons = [[
+            InlineKeyboardButton(text="ʙʀɪɢʜᴛ", callback_data="bright"),
+            InlineKeyboardButton(text="ᴍɪxᴇᴅ", callback_data="mix"),
+            InlineKeyboardButton(text="ʙʟᴀᴄᴋ & ᴡʜɪᴛᴇ", callback_data="b|w"),
+            ],[
+            InlineKeyboardButton(text="ᴄɪʀᴄʟᴇ", callback_data="circle"),
+            InlineKeyboardButton(text="ʙʟᴜʀ", callback_data="blur"),
+            InlineKeyboardButton(text="ʙᴏʀᴅᴇʀ", callback_data="border"),
+            ],[
+            InlineKeyboardButton(text="sᴛɪᴄᴋᴇʀ", callback_data="stick"),
+            InlineKeyboardButton(text="ʀᴏᴛᴀᴛᴇ", callback_data="rotate"),
+            InlineKeyboardButton(text="ᴄᴏɴᴛʀᴀsᴛ", callback_data="contrast"),
+            ],[
+            InlineKeyboardButton(text="sᴇᴘɪᴀ", callback_data="sepia"),
+            InlineKeyboardButton(text="ᴘᴇɴᴄɪʟ", callback_data="pencil"),
+            InlineKeyboardButton(text="ᴄᴀʀᴛᴏᴏɴ", callback_data="cartoon"),
+            ],[
+            InlineKeyboardButton(text="ɪɴᴠᴇʀᴛ", callback_data="inverted"),
+            InlineKeyboardButton(text="ɢʟɪᴛᴄʜ", callback_data="glitch"),
+            InlineKeyboardButton(text="ʀᴇᴍᴏᴠᴇ ʙɢ", callback_data="removebg")
+            ],[
+            InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close_data")
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)        
+        await query.message.edit_text(        
+            text="sᴇʟᴇᴄᴛ ᴀɴᴅ ᴀᴘᴘʟʏ ᴛʜᴇ ʀᴇǫᴜɪʀᴇᴅ ᴇᴅɪᴛs!",
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('ᴍᴀ ꜰɪʟᴛᴇʀ', callback_data='manuelfilter'),
