@@ -4,7 +4,7 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """○ 𝖬𝗒 𝖭𝖺𝗆𝖾 : <a href="https://t.me/DwL_MoviE_Bot">𝖲ᴜʀʏᴀ ♥️</a>
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href="https://t.me/DARKWEBLOAD">𝑡ℎ𝑖𝑠 𝑝𝑒𝑟𝑠𝑜𝑛</a>
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href="https://t.me/DARKWEBLOAD">𝖣ᴀʀᴋ 𝖶ᴇʙʟᴏᴀᴅ🇮🇳</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
 ○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : 𝖧𝖾𝗋𝗈𝗄𝗎
