@@ -688,7 +688,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await removebg_sticker(client, query.message)
     elif query.data == "pages":
         await query.answer()
-    elif query.data == "ajax":
+    elif query.data == "DWL":
         buttons = [[
 
             InlineKeyboardButton('ᴄʟɪᴄᴋ ʜᴇʀᴇ ꜰᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴꜱ', callback_data='start')
@@ -702,13 +702,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('sᴜᴘᴘᴏʀᴛ ᴘʟᴇᴀsᴇ')
     elif query.data == "start":
         buttons = [[            
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/MWUpdatez')
-        ], [
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Universal_Moviess'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Universal_MoviesZ')
+            ],[
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/AboutAadhi')
-        ], [
-            InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='ajax')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/DARKWEBLOAD')
+            ],[
+            InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help')
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            ],[ 
+            InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='DWL')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
