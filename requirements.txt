@@ -48,4 +48,3 @@ ffmpeg-python
 ffmpeg
 Pillow
 ujson
-imdb
