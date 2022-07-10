@@ -729,7 +729,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(text="ʙʟᴜʀ", callback_data="blur"),
             InlineKeyboardButton(text="ʙᴏʀᴅᴇʀ", callback_data="border"),
             ],[
-            InlineKeyboardButton(text="sᴛɪᴄᴋᴇʀ", callback_data="stick"),
+            InlineKeyboardButton(text="sᴛɪᴄᴋᴇʀ", callback_data="stickerid"),
             InlineKeyboardButton(text="ʀᴏᴛᴀᴛᴇ", callback_data="rotate"),
             InlineKeyboardButton(text="ᴄᴏɴᴛʀᴀsᴛ", callback_data="contrast"),
             ],[
@@ -785,7 +785,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ᴠɪᴅᴇᴏ", callback_data='video')            
             ],[
             InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image'),
-            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purges'),
+            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge'),
             InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois')           
             ],[
             InlineKeyboardButton('‹‹ ʙᴀᴄᴋ', callback_data='help'),
@@ -801,8 +801,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )  
     elif query.data == "B":
         buttons = [[ 
-            InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='son'),
-            InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='pastes'),
+            InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='json'),
+            InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='paste'),
             InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='corona')
             ],[
             InlineKeyboardButton('ᴋɪᴄᴋ', callback_data='zombies'),
