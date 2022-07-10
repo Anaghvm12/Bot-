@@ -11,3 +11,4 @@ aiohttp==3.7.4
 googletrans==3.1.0a0
 gtts
 Pillow
+psutil
