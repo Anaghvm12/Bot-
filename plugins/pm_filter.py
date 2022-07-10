@@ -708,7 +708,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
             InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/DARKWEBLOAD')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help')
+            InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[ 
             InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='DWL')
