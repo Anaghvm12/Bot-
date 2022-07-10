@@ -690,8 +690,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "ajax":
         buttons = [[
-    elif query.data == "start":
-        buttons = [[
 
             InlineKeyboardButton('sᴜʀᴘʀɪsᴇ', callback_data='start')
         ]]
