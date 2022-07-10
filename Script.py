@@ -95,6 +95,15 @@ This module allows you to do that easily, by exposing some common actions, so ev
 • IMDb should have admin privillage.
 • These commands works on group.
 • These commands can be used by Only admin."""
+    FILE_TXT = """𝗛𝗲𝗹𝗽 : 𝗳𝗶𝗹𝗲 𝘀𝘁𝗼𝗿𝗲 𝗺𝗼𝗱𝘂𝗹𝗲..
+𝖡𝗒 𝗎𝗌𝗂𝗇𝗀 𝗍𝗁𝗂𝗌 𝗆𝗈𝖽𝗎𝗅𝖾 𝗒𝗈𝗎 𝖼𝖺𝗇 𝗌𝗍𝗈𝗋𝖾 𝖿𝗂𝗅𝖾𝗌 𝗂𝗇 𝗆𝗒 𝖽𝖺𝗍𝖺 𝖻𝖺𝗌𝖾 𝖺𝗇𝖽 𝗂 𝗐𝗂𝗅𝗅 𝗀𝗂𝗏𝖾 𝗒𝗈𝗎 𝖺 𝗉𝖾𝗋𝗆𝖾𝗇𝖾𝗇𝗍 𝗅𝗂𝗇𝗄 𝗍𝗈 𝖺𝖼𝖼𝖾𝗌𝗌 𝗍𝗁𝖾 𝗌𝖺𝗏𝖾𝖽 𝖿𝗂𝗅𝖾𝗌. 𝗂𝖿 𝗒𝗈𝗎 𝗐𝖺𝗇𝗍 𝗍𝗈 𝖺𝖽𝖽 𝖿𝗂𝗅𝖾𝗌 𝖿𝗋𝗈𝗆 𝖺 𝗉𝗋𝗂𝗏𝖺𝗍𝖾 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 𝗒𝗈𝗎 𝗆𝗎𝗌𝗍 𝗆𝖺𝗄𝖾 𝗆𝖾 𝖺𝖽𝗆𝗂𝗇 𝗈𝗇 𝗍𝗁𝖾 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 𝗍𝗈 𝖺𝖼𝖼𝖾𝗌𝗌 𝖿𝗂𝗅𝖾𝗌...
+» 𝗖𝗼𝗺𝗺𝗮𝗻𝘁𝘀 𝗮𝗻𝗱 𝘂𝘀𝗮𝗴𝗲 :
+• /plink ›› 𝗋𝖾𝗉𝗅𝖺𝗒 𝗍𝗈 𝖺𝗇𝗒 𝗆𝖾𝖺𝖽𝗂𝖺 𝗍𝗈 𝗀𝖾𝗍 𝗅𝗂𝗇𝗄.
+• /pbatch ›› 𝗎𝗌𝖾 𝗒𝗈𝗎𝗋 𝗆𝖾𝖺𝖽𝗂𝖺 𝗅𝗂𝗇𝗄 𝗍𝗈 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽.
+• /batch ›› 𝗍𝗈 𝖼𝗋𝖾𝖺𝗍 𝗅𝗂𝗇𝗄𝗌 𝖿𝗈𝗋 𝗆𝗎𝗅𝗍𝗂𝗉𝗅𝖾 𝖿𝗂𝗅𝖾𝗌.
+• 𝖤𝗑𝖺𝗆𝗉𝗅𝖾 » <code>
+/batch   https://t.me/+Rc9TK3wIf6xjODE9</code>
+𝖢𝗋𝖾𝖽𝗂𝗍𝗌 ›› <a href=https://t.me/DARKWEBLOAD><b>Dᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ🇮🇳</b></a>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Eva Maria Supports both url and alert inline buttons.
