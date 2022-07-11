@@ -118,6 +118,16 @@ This module allows you to do that easily, by exposing some common actions, so ev
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
+    INFO_TXT = """Help: <b>Information</b>
+Get information about something!
+<b>Commands and Usage:</b>
+• /id - get id of a specifed user.
+• /info  - get information about a user.
+• /json - get the json details of a message.
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
     URLSHORT_TXT = """➤ 𝖧𝖾𝗅𝗉: 𝖴𝗋𝗅 𝗌𝗁𝗈𝗋𝗍𝗇𝖾𝗋
 𝖳𝗁𝗂𝗌 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖧𝖾𝗅𝗉 𝖸𝗈𝗎 𝖳𝗈 𝖲𝗁𝗈𝗋𝗍 𝖠 𝖴𝗋𝗅 
 ➤ 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖴𝗌𝖺𝗀𝖾:
