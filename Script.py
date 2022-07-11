@@ -119,6 +119,12 @@ This module allows you to do that easily, by exposing some common actions, so ev
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
+    IMAGE_TXT = """• 𝐇𝐞𝐥𝐩: Iᴍᴀɢᴇ
+𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚑𝚎𝚕𝚙𝚜 𝚢𝚘𝚞 𝚝𝚘 𝚎𝚍𝚒𝚝 𝚒𝚖𝚊𝚐𝚎 𝚟𝚎𝚛𝚢 𝚎𝚊𝚜𝚒𝚕𝚢 
+• 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:
+• 𝖩𝗎𝗌𝗍 𝗌𝖾𝗇𝖽 𝗆𝖾 𝖺 𝗂𝗆𝖺𝗀𝖾 𝗍𝗈 𝖾𝖽𝗂𝗍 ✨
+
+• 𝖬𝖺𝖽𝖾 𝖻𝗒 <a href=https://t.me/DARKWEBLOAD>𝖣ᴀʀᴋ 𝖶ᴇʙʟᴏᴀᴅ🇮🇳</a>"""
     VIDEO_TXT ="""<b>Help You To Download Video From Youtube 😇</b>
 • Usage
 You can download any video from youtube
