@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>ʜᴇʟʟᴏ</b> {},
+    START_TXT = """<b>ʜᴇʟʟᴏ {},</b>
 <b>ᴍʏ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a>, ɪ ᴄᴀɴ ᴩʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ, ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ 😇</b>"""
     HELP_TXT = """<b>ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.</b>"""
     ABOUT_TXT = """○ 𝖬𝗒 𝖭𝖺𝗆𝖾 : <a href="https://t.me/DwL_MoviE_Bot">𝖲ᴜʀʏᴀ ♥️</a>
@@ -125,14 +125,13 @@ This module allows you to do that easily, by exposing some common actions, so ev
 
 • 𝖬𝖺𝖽𝖾 𝖻𝗒 <a href=https://t.me/DARKWEBLOAD>𝖣ᴀʀᴋ 𝖶ᴇʙʟᴏᴀᴅ🇮🇳</a>"""
     VIDEO_TXT ="""<b>Help You To Download Video From Youtube 😇</b>
-• Usage
+• <b>Usage</b>
 You can download any video from youtube
 
 <b>How to use</b>
 
-• Tipe /video or /mp4 And (https://youtu.be/H--sl0xxt7c)
+• Tipe /video or /mp4 And (<code>https://youtu.be/H--sl0xxt7c</code>)
 • <b>Example:</b>
-<code>/mp4 https://youtu.be/H--sl0xxt7c</code>
 <code>/video https://youtu.be/H--sl0xxt7c</code>"""
     
     REPORT_TXT = """• 𝐇𝐞𝐥𝐩: Rᴇᴘᴏʀᴛ ⚠️
