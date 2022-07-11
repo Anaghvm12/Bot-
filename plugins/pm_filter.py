@@ -813,7 +813,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴅᴇᴘʟᴏʏ', callback_data='deploy'),
             InlineKeyboardButton('ᴘɪɴ', callback_data='pin')           
             ],[
-            InlineKeyboardButton('‹‹ ʙᴀᴄᴋ', callback_data='A'),
+            InlineKeyboardButton('‹ ʙᴀᴄᴋ', callback_data='A'),
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start')
         ]]
@@ -1031,6 +1031,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.BUTTON_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "info":
+        buttons = [[
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.INFO_TXT,
+            disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
         )
