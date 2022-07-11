@@ -33,7 +33,8 @@ Just for a rasam😂"""
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     CORONA_TXT ="""<b>Here is the help for the coron information module</b>
   /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>"""
-    STICKER_TXT ="""<b>COMMAND /stickerid\n𝖨𝖿 𝖸𝗈𝗎 𝖭𝖾𝖾𝖽 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 𝖢𝗅𝗂𝖼𝗄 /stickerid 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 (𝖱𝖾𝗉𝗅𝗒 𝖶𝗂𝗍𝗁 𝖲𝗍𝗂𝖼𝗄𝖾𝗋)</b>"""  
+    STICKER_TXT ="""<b>Command :</b>
+if you need telegram sticker id click /stickerid to get sticker id (reply with sticker)"""  
     PASTE_TXT = """Help: <b>Paste</b>
 Paste some texts or documents on a website!
 <b>Commands and Usage:</b>
@@ -119,12 +120,13 @@ This module allows you to do that easily, by exposing some common actions, so ev
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     
-    REPORT_TXT = """➤ 𝐇𝐞𝐥𝐩: Rᴇᴘᴏʀᴛ ⚠️
+    REPORT_TXT = """• 𝐇𝐞𝐥𝐩: Rᴇᴘᴏʀᴛ ⚠️
 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚑𝚎𝚕𝚙𝚜 𝚢𝚘𝚞 𝚝𝚘 𝚛𝚎𝚙𝚘𝚛𝚝 𝚊 𝚖𝚎𝚜𝚜𝚊𝚐𝚎 𝚘𝚛 𝚊 𝚞𝚜𝚎𝚛 𝚝𝚘 𝚝𝚑𝚎 𝚊𝚍𝚖𝚒𝚗𝚜 𝚘𝚏 𝚝𝚑𝚎 𝚛𝚎𝚜𝚙𝚎𝚌𝚝𝚒𝚟𝚎 𝚐𝚛𝚘𝚞𝚙. 𝙳𝚘𝚗'𝚝 𝚖𝚒𝚜𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍.
-➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:
+• 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:
 ➪/report 𝗈𝗋 @admins - 𝖳𝗈 𝗋𝖾𝗉𝗈𝗋𝗍 𝖺 𝗎𝗌𝖾𝗋 𝗍𝗈 𝗍𝗁𝖾 𝖺𝖽𝗆𝗂𝗇𝗌 (𝗋𝖾𝗉𝗅𝗒 𝗍𝗈 𝖺 𝗆𝖾𝗌𝗌𝖺𝗀𝖾)."""
     
-    ZOMBIES_TXT = """𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙺𝙸𝙲𝙺 𝚄𝚂𝙴𝚁𝚂
+    ZOMBIES_TXT = """• Help you to kick users
+
 <b>Kick incative members from group. Add me as admin with ban users permission in group.</b>
 <b>Commands and Usage:</b>
 • /inkick - command with required arguments and i will kick members from group.
@@ -133,11 +135,11 @@ This module allows you to do that easily, by exposing some common actions, so ev
 • /inkick long_time_ago - to kick members who are offline for more than a month and Deleted Accounts.
 • /dkick - to kick deleted accounts."""
     
-    GTRANS_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖦𝗈𝗈𝗀𝗅𝖾 𝖳𝗋𝖺𝗇𝗌𝗅𝖺𝗍𝖾𝗋
+    GTRANS_TXT = """• 𝐇𝐞𝐥𝐩: 𝖦𝗈𝗈𝗀𝗅𝖾 𝖳𝗋𝖺𝗇𝗌𝗅𝖺𝗍𝖾𝗋
 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚑𝚎𝚕𝚙𝚜 𝚢𝚘𝚞 𝚝𝚘 𝚝𝚛𝚊𝚗𝚜𝚕𝚊𝚝𝚎 𝚊 𝚝𝚎𝚡𝚝 𝚝𝚘 𝖺𝗇𝗒 𝚕𝚊𝚗𝚐𝚞𝚊𝚐𝚎𝚜 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝. 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚠𝚘𝚛𝚔𝚜 𝚘𝚗 𝚋𝚘𝚝𝚑 𝚙𝚖 𝚊𝚗𝚍 𝚐𝚛𝚘𝚞𝚙 ✯
-➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:
+• 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:
 ➪/tr - 𝖳𝗈 𝗍𝗋𝖺𝗇𝗌𝗅𝖺𝗍𝖾𝗋 𝗍𝖾𝗑𝗍𝗌 𝗍𝗈 𝖺 𝗌𝗉𝖾𝖼𝗂𝖿𝖼 𝗅𝖺𝗇𝗀𝗎𝖺𝗀𝖾
-➤ 𝖭𝗈𝗍𝖾:
+• 𝖭𝗈𝗍𝖾:
 𝖶𝗁𝗂𝗅𝖾 𝗎𝗌𝗂𝗇𝗀 /tr 𝗒𝗈𝗎 𝗌𝗁𝗈𝗎𝗅𝖽 𝗌𝗉𝖾𝖼𝗂𝖿𝗒 𝗍𝗁𝖾 𝗅𝖺𝗇𝗀𝗎𝖺𝗀𝖾 𝖼𝗈𝖽𝖾
 ➛𝖤𝗑𝖺𝗆𝗉𝗅𝖾: /𝗍𝗋 𝗆𝗅
 • 𝖾𝗇 = 𝖤𝗇𝗀𝗅𝗂𝗌𝗁
@@ -161,16 +163,16 @@ Get information about something!
 • IMDb should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
-    URLSHORT_TXT = """➤ 𝖧𝖾𝗅𝗉: 𝖴𝗋𝗅 𝗌𝗁𝗈𝗋𝗍𝗇𝖾𝗋
+    URLSHORT_TXT = """• 𝖧𝖾𝗅𝗉: 𝖴𝗋𝗅 𝗌𝗁𝗈𝗋𝗍𝗇𝖾𝗋
 𝖳𝗁𝗂𝗌 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖧𝖾𝗅𝗉 𝖸𝗈𝗎 𝖳𝗈 𝖲𝗁𝗈𝗋𝗍 𝖠 𝖴𝗋𝗅 
-➤ 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖴𝗌𝖺𝗀𝖾:
+• 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖴𝗌𝖺𝗀𝖾:
 ➪ /short: 𝗎𝗌𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 𝗐𝗂𝗍𝗁 𝗒𝗈𝗎𝗋 𝗅𝗂𝗇𝗄 𝗍𝗈 𝗀𝖾𝗍 𝗌𝗁𝗈𝗋𝗍𝖾𝖽 𝗅𝗂𝗇𝗄𝗌
 ➛𝖤𝗑𝖺𝗆𝗉𝗅𝖾:
 <code>/short https://youtu.be/IF_qoYnCLjs</code>"""
-    ABOOK_TXT = """➤ 𝖧𝖾𝗅𝗉: 𝖠𝗎𝖽𝗂𝗈𝖻𝗈𝗈𝗄
-𝖸𝗈𝗎 𝖢𝖺𝗇 𝖢𝗈𝗇𝗏𝖾𝗋𝗍 𝖠 𝖯𝖽𝖿 𝖥𝗂𝗅𝖾 𝖳𝗈 𝖠 𝖵𝗂𝖽𝖾𝗈 𝖥𝗂𝗅𝖾 𝖶𝗂𝗍𝗁 𝖳𝗁𝗂𝗌 𝖢𝗈𝗆𝗆𝖺𝗇𝖽.
-➤𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖠𝗇𝖽 𝖴𝗌𝖺𝗀𝖾:
-➪ /audiobook: 𝖱𝖾𝗉𝗅𝗒 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 𝗍𝗈 𝖺𝗇𝗒 𝖯𝖣𝖥 𝗍𝗈 𝗀𝖾𝗇𝖾𝗋𝖺𝗍𝖾 𝗍𝗁𝖾 𝖺𝗎𝖽𝗂𝗈"""
+    ABOOK_TXT = """• <b>Help : audiobook</b>
+you can convert a pdf file to video file with this command.
+•<b> Command and usage:</b>
+•  /audiobook : reply this command to any PDF to generate the audio"""
     PINGS_TXT ="""<b>🌟 Ping:</b>
 Helps you to know your ping 🚶🏼‍♂️
 <b>Commands:</b>
@@ -220,18 +222,22 @@ these are the extra features of Eva Maria
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
     
-    YTTHUMB_TXT = """𝖧𝖾𝗅𝗉𝗌 𝖳𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖠𝗇𝗒 𝖸𝗈𝗎𝗍𝗎𝖻𝖾 𝖵𝗂𝖽𝖾𝗈 𝖳𝗁𝗎𝗆𝖻𝗇𝖺𝗂𝗅
+    YTTHUMB_TXT = """• 𝖧𝖾𝗅𝗉𝗌 𝖳𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖠𝗇𝗒 𝖸𝗈𝗎𝗍𝗎𝖻𝖾 𝖵𝗂𝖽𝖾𝗈 𝖳𝗁𝗎𝗆𝖻𝗇𝖺𝗂𝗅
     
 🛃 𝖧𝗈𝗐 𝖳𝗈 𝖴𝗌𝖾
 𝖳𝗒𝗉𝖾 /ytthumb 𝖠𝗇𝖽 𝖵𝗂𝖽𝖾𝗈 𝖫𝗂𝗇𝗄
 • 𝖤𝗑𝖺𝗆𝗉𝗅𝖾
 <code>/ytthumb https://youtu.be/OWqbMNrVt5s</code>"""
-    SONG_TXT = """<b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
-<b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴, 𝙵𝙾𝚁 𝚃𝙷𝙾𝚂𝙴 𝚆𝙷𝙾 𝙻𝙾𝚅𝙴 𝙼𝚄𝚂𝙸𝙲. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙵𝙴𝙰𝚃𝚄𝙴 𝙵𝙾𝚁 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙰𝙽𝚈 𝚂𝙾𝙽𝙶 𝚆𝙸𝚃𝙷 𝚂𝚄𝙿𝙴𝚁 𝙵𝙰𝚂𝚃 𝚂𝙿𝙴𝙴𝙳.𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿𝚂../</b>
-<b>𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂</b>
-››  /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 
-𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href="https://t.me/DARKWEBLOAD">𝖣ᴀʀᴋ 𝖶ᴇʙʟᴏᴀᴅ🇮🇳</a>"""
+    SONG_TXT = """<b>SONG MODULE</b>
+• Song Download
+• Song Download Module, For Those Who Love Music
+• Super fast song downloading..🔥
+🎈 Command
+
+• /song or /mp3 (songname) - download song from yt servers.
+
+Usage
+- working pm and groups"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
@@ -249,11 +255,11 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b>🗃️ 𝖳𝗈𝗍𝖺𝗅 𝖥𝗂𝗅𝖾𝗌 : <code>{}</code></b>
-<b>👤 𝖳𝗈𝗍𝖺𝗅 𝖴𝗌𝖾𝗋𝗌 : <code>{}</code></b>
-<b>👥 𝖳𝗈𝗍𝖺𝗅 𝖢𝗁𝖺𝗍𝗌 : <code>{}</code></b>
-<b>💾 𝖴𝗌𝖾𝖽 𝖲𝗍𝗈𝗋𝖺𝗀𝖾 : <code>{}</code> 𝖬𝖻</b>
-<b>🖥️ 𝖥𝗋𝖾𝖾 𝖲𝗍𝗈𝗋𝖺𝗀𝖾 : <code>{}</code> 𝖬𝖻</b>"""
+    STATUS_TXT = """<b>🗃️ Tᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{}</code></b>
+<b>👤 Tᴏᴛᴀʟ ᴜꜱᴇʀꜱ : <code>{}</code></b>
+<b>👥 Tᴏᴛᴀʟ ᴄʜᴀᴛꜱ : <code>{}</code></b>
+<b>💾 Uꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ :</b> <code>{}</code> 𝖬𝖻
+<b>🖥️ Fʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ :</b> <code>{}</code> 𝖬𝖻"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
@@ -264,6 +270,7 @@ ID - <code>{}</code>
 Name - {}
 """
 
-    ENGLISH_TXT = """Look in Google or any internet browser's and find the right movie name and send it here for the movie / series ....\n\nIf you still do not get it. Send a message to group in this way Movie Name & year after @admin. Example: @admin Kurup.\n\nWe will try to upload if requested one is theatre print. Ott and Dvd released movies, will upload within 24 hours."""
+    ENGLISH_TXT = """Look in Google or any internet browser's and find the right Music
+    name and send it here for the movie / series ....\n\nIf you still do not get it. Send a message to group in this way Movie Name & year after @admin. Example: @admin Kurup.\n\nWe will try to upload if requested one is theatre print. Ott and Dvd released movies, will upload within 24 hours."""
 
     MALAYALAM_TXT = """Google അല്ലെങ്കിൽ ഏതേലും internet browser's ഇൽ നോക്കി ശരിയായ സിനിമയുടെ പേര് കണ്ടെത്തി ഇവിടെ നൽകുക എന്നാലേ സിനിമ / സീരിയസ് കിട്ടുകയുള്ളു....\n\nഎന്നിട്ടും കിട്ടുന്നില്ല എങ്കിൽ. @admin ശേഷം മൂവി Name & year. Example : @admin Kurup 2021 ഈ രീതിയിൽ  ഗ്രൂപ്പിൽ സെന്റ് ചെയുക. 24 മണിക്കൂറിനുള്ളിൽ അഡ്മിൻ കിട്ടിയാൽ upload ചെയ്യാം..\n\nതിയേറ്ററിൽ റിലീസ് ആയ മൂവിയാണ് ചോദിച്ചതെങ്കിൽ upload ചെയ്യാൻ ശ്രമിക്കാം. ott Dvd റിലീസ് ആയത് ആണെങ്കിൽ തന്നിരിക്കും."""
