@@ -119,6 +119,16 @@ This module allows you to do that easily, by exposing some common actions, so ev
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
+    VIDEO_TXT ="""<b>Help You To Download Video From Youtube 😇</b>
+• Usage
+You can download any video from youtube
+
+<b>How to use</b>
+
+• Tipe /video or /mp4 And (https://youtu.be/H--sl0xxt7c)
+• <b>Example:</b>
+<code>/mp4 https://youtu.be/H--sl0xxt7c</code>
+<code>/video https://youtu.be/H--sl0xxt7c</code>"""
     
     REPORT_TXT = """• 𝐇𝐞𝐥𝐩: Rᴇᴘᴏʀᴛ ⚠️
 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚑𝚎𝚕𝚙𝚜 𝚢𝚘𝚞 𝚝𝚘 𝚛𝚎𝚙𝚘𝚛𝚝 𝚊 𝚖𝚎𝚜𝚜𝚊𝚐𝚎 𝚘𝚛 𝚊 𝚞𝚜𝚎𝚛 𝚝𝚘 𝚝𝚑𝚎 𝚊𝚍𝚖𝚒𝚗𝚜 𝚘𝚏 𝚝𝚑𝚎 𝚛𝚎𝚜𝚙𝚎𝚌𝚝𝚒𝚟𝚎 𝚐𝚛𝚘𝚞𝚙. 𝙳𝚘𝚗'𝚝 𝚖𝚒𝚜𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍.
