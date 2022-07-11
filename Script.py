@@ -118,6 +118,14 @@ This module allows you to do that easily, by exposing some common actions, so ev
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
+    TTS_TXT = """Help: <b> TTS 🎤 module:</b>
+Translate text to speech
+<b>Commands and Usage:</b>
+• /tts <text> : convert text to speech
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• IMDb can translate texts to 200+ languages."""
     INFO_TXT = """Help: <b>Information</b>
 Get information about something!
 <b>Commands and Usage:</b>
