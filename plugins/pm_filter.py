@@ -701,7 +701,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.answer('sᴜᴘᴘᴏʀᴛ ᴘʟᴇᴀsᴇ')
     elif query.data == "start":
-        buttons = [[            
+        buttons = [[
+            InlineKeyboardButton('➕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️', url='http://t.me/DwL_MoviE_Bot?startgroup=true')
+            ],[            
             InlineKeyboardButton('🍿 ɢʀᴏᴜᴘ', url='https://t.me/Universal_Moviess'),
             InlineKeyboardButton('🎬 ᴄʜᴀɴɴᴇʟ', url='https://t.me/Universal_MoviesZ')
             ],[
@@ -763,9 +765,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴀᴜᴅɪᴏ ʙᴏᴏᴋ', callback_data='abook'),
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ', callback_data='report')
             ],[
-            InlineKeyboardButton('‹‹ ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('‹ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('ɴᴇxᴛ ››', callback_data='A')
+            InlineKeyboardButton('ɴᴇxᴛ ›', callback_data='A')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)  
         await query.answer("ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇ ᴏɴᴇ") 
@@ -788,9 +790,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge'),
             InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois')           
             ],[
-            InlineKeyboardButton('‹‹ ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('‹ ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='statsx'),
-            InlineKeyboardButton('ɴᴇxᴛ ››', callback_data='B')
+            InlineKeyboardButton('ɴᴇxᴛ ›', callback_data='B')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)  
         await query.answer("ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇ ᴛᴡᴏ")     
